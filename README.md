@@ -1,0 +1,3 @@
+# code-editor
+Create my code editor with react and typescript where you can write your code with react , javascript even import puma css.................
+download my package at npmjs.com and search for @jsnote-editor
