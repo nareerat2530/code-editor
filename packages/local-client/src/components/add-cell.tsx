@@ -9,13 +9,16 @@ interface AddCellProps {
 const AddCell: React.FC<AddCellProps> = ({ previousCellId: nextCellId, forceVisible }) => {
   const { insertCellAfter } = useActions();
   return (
+       //add icon
     <div className={`add-cell ${forceVisible && 'force-visible'}`}>
       <div className="add-buttons">
         <button
           className="button is-rounded is-primary is-small"
           onClick={() => insertCellAfter(nextCellId, "code")}
         >
+          
           <span className="icon is-small">
+         
             <i className="fas fa-plus"></i>
           </span>
           <span>Code</span>
