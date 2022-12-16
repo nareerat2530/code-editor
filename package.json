@@ -6,8 +6,5 @@
   },
   "scripts": {
     "start": "lerna run start --parallel"
-  },
-  "dependencies": {
-    "@jsnote-editor/local-client": "^1.0.0"
   }
 }
